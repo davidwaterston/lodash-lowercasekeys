@@ -115,6 +115,7 @@ Returns:
 
 ### Version History
 
-| Version | Release Date    | Details          |
-| :------ | :-------------- | :--------------- |
-| 1.0.0   | 4th March, 2018 | Initial release. |
+| Version | Release Date     | Details          |
+| :------ | :--------------- | :--------------- |
+| 1.0.1   | 11th March, 2018 | Add .prettierrc. |
+| 1.0.0   | 4th March, 2018  | Initial release. |

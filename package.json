@@ -1,6 +1,6 @@
 {
     "name": "lodash-lowercasekeys",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description":
         "Extend Lodash to take a value and recursively convert all keys to lowercase.",
     "main": "index.js",
