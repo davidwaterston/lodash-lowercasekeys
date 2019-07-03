@@ -1,23 +1,26 @@
 {
-    "name": "lodash-lowercasekeys",
-    "version": "1.0.1",
-    "description":
-        "Extend Lodash to take a value and recursively convert all keys to lowercase.",
-    "main": "index.js",
-    "dependencies": {
-        "lodash": "^4.17.5"
-    },
-    "devDependencies": {
-        "mocha": "^5.0.1",
-        "should": "^13.1.3"
-    },
-    "scripts": {
-        "test": "mocha tests/test.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/davidwaterston/lodash-lowercasekeys"
-    },
-    "author": "David Waterston",
-    "license": "MIT"
+  "name": "lodash-lowercasekeys",
+  "version": "1.0.1",
+  "description": "Extend Lodash to take a value and recursively convert all keys to lowercase.",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "snyk": "^1.189.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.1",
+    "should": "^13.1.3"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidwaterston/lodash-lowercasekeys"
+  },
+  "author": "David Waterston",
+  "license": "MIT",
+  "snyk": true
 }
